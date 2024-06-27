@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timco Excavation and Construction, LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+        }
+        header a:hover {
+            color: #cccccc;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #newsletter {
+            padding: 15px;
+            color: #ffffff;
+            background: #35424a;
+        }
+        #newsletter h1 {
+            float: left;
+        }
+        #newsletter form {
+            float: right;
+            margin-top: 15px;
+        }
+        #newsletter input[type="email"] {
+            padding: 4px;
+            height: 25px;
+            width: 250px;
+        }
+        .content {
+            padding: 15px 0;
+        }
+        .content h1 {
+            text-align: center;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .content .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .content .services div {
+            flex: 1;
+            padding: 20px;
+            background: #ffffff;
+            margin: 5px;
+        }
+        .content .testimonials {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .content .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #35424a;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Timco</span> Excavation and Construction</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Timco Excavation and Construction</h1>
+            <p>Providing excellent workmanship and complete customer satisfaction from start to completion of a project.</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form action="newsletter.html">
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h1>Why Choose Timco Excavation and Construction?</h1>
+            <p>We take pride in doing the job right the first time and pay close attention to detail. It is our mission to provide excellent workmanship and complete customer satisfaction, from the start to the completion of a project.</p>
+            
+            <h1>Our Services</h1>
+            <div class="services">
+                <div>
+                    <h3>Septic Pumping</h3>
+                    <p>We specialize in septic pumping, ensuring your system functions properly and efficiently.</p>
+                </div>
+                <div>
+                    <h3>Excavation</h3>
+                    <p>Our excavation services cover site prep, land clearing, grading, and more.</p>
+                </div>
+                <div>
+                    <h3>Demolition</h3>
+                    <p>We provide safe and efficient demolition services for various projects.</p>
+                </div>
+            </div>
+
+            <h1>Testimonials</h1>
+            <div class="testimonials">
+                <p>"Timco did an excellent job on our septic system. Highly recommend!" - John Doe</p>
+                <p>"Great attention to detail and finished on time!" - Jane Smith</p>
+            </div>
+
+            <div class="cta">
+                <h1>Ready to start your project?</h1>
+                <p>Contact us today to get started on your excavation and construction needs.</p>
+                <a href="contact.html" class="button_1">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Timco Excavation and Construction, LLC &copy; 2023</p>
+    </footer>
+
+    <!-- About Us Page -->
+    <div id="about">
+        <section class="content">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Timco Excavation and Construction, LLC was established in December 2023. We decided to use our extensive experience in the private sector to offer top-notch services.</p>
+                <h2>Mission Statement</h2>
+                <p>It is our mission to provide excellent workmanship and complete customer satisfaction, from the start to the completion of a project. Our reputation is based on service, safety, and quality.</p>
+                <h2>About the Owner</h2>
+                <p>Our owner has over 10 years of experience in excavation, starting as an apprentice and working up to a project superintendent. He has managed numerous projects including airport improvements, road improvements, and foundation dig-outs.</p>
+                <h2>Our Values</h2>
+                <p>Honesty, reliability, quality, and attention to detail are the core values that drive our company.</p>
+                <h2>Experience</h2>
+                <p>With a decade of experience, we have handled a variety of projects including storm and sewer pipe installations, grading, and demolition.</p>
+                <h2>Testimonials</h2>
+                <p>"Reliable and honest. Timco exceeded our expectations!" - Alice Johnson</p>
+                <h2>FAQ</h2>
+                <p><strong>Q: What areas do you serve?</strong></p>
+                <p>A: We serve all areas needing septic and excavation services.</p>
+                <div class="cta">
+                    <h1>Contact Us Today</h1>
+                    <p>We are ready to help with your excavation and construction needs.</p>
+                    <a href="contact.html" class="button_1">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Services Page -->
+    <div id="services">
+        <section class="content">
+            <div class="container">
+                <h1>Our Services</h1>
+                <h2>AdvatTex Certified Maintenance Provider</h2>
+                <p>We are certified providers for AdvatTex maintenance, ensuring your system operates efficiently.</p>
+                <h2>Septic Pumping</h2>
+                <p>Regular septic pumping to keep your system running smoothly.</p>
+                <h2>Septic Install</h2>
+                <p>Professional septic system installation services.</p>
+                <h2>Septic Repair</h2>
+                <p>Reliable septic system repair services to fix any issues.</p>
+                <h2>Excavation</h2>
+                <p>Comprehensive excavation services including site prep, land clearing, and grading.</p>
+                <h2>Site Prep</h2>
+                <p>Preparation of sites for construction and other projects.</p>
+                <h2>Utility Install</h2>
+                <p>Installation of utilities such as power vaults and underground power services.</p>
+                <h2>Land Clearing</h2>
+                <p>Efficient land clearing services for various types of projects.</p>
+                <h2>Grading</h2>
+                <p>Professional grading services to ensure proper site leveling and preparation.</p>
+                <h2>Demolition</h2>
+                <p>Safe and effective demolition services for a variety of structures.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Project Gallery Page -->
+    <div id="projects">
+        <section class="content">
+            <div class="container">
+                <h1>Project Gallery</h1>
+                <p>Check out some of our completed projects.</p>
+                <!-- Add project images here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Us Page -->
+    <div id="contact">
+        <section class="content">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form name="contact-form" onsubmit="submitForm(event)">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required><br><br>
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" name="zipcode" required><br><br>
+                    <label for="message">Message/Project Description:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            var formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                zipcode: document.getElementById('zipcode').value,
+                message: document.getElementById('message').value
+            };
+
+            fetch('https://script.google.com/macros/s/AKfycbwM_K3RlfgO2hS_s7LpoRQ7PsoKjopRTnNmOnyoIbjA/dev', {
+                method: 'POST',
+                body: JSON.stringify(formData)
+            }).then(response => {
+                if (response.ok) {
+                    alert('Form submitted successfully');
+                    document.forms['contact-form'].reset();
+                } else {
+                    alert('Form submission failed');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
